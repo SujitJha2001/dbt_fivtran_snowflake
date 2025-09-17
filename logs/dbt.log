@@ -1,0 +1,30 @@
+[0m15:31:33.364133 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1062128a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106d1f650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f8e4b0>]}
+
+
+============================== 15:31:33.366860 | d43f6160-a22b-4b17-9928-35cb7920a826 ==============================
+[0m15:31:33.366860 [info ] [MainThread]: Running with dbt=1.10.11
+[0m15:31:33.367108 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'empty': 'None', 'use_experimental_parser': 'False', 'profiles_dir': '/Users/sujitjha/.dbt', 'log_cache_events': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'static_parser': 'True', 'version_check': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'invocation_command': 'dbt init dbt_fivtran_snowflake', 'log_path': 'logs', 'no_print': 'None', 'debug': 'False', 'introspect': 'True', 'target_path': 'None'}
+[0m15:31:33.375342 [debug] [MainThread]: Starter project path: /Users/sujitjha/Documents/DBT_FIVETRAN/venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m15:31:33.378040 [info ] [MainThread]: 
+Your new dbt project "dbt_fivtran_snowflake" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:31:33.378176 [info ] [MainThread]: Setting up your profile.
+[0m15:48:10.738113 [info ] [MainThread]: Profile dbt_fivtran_snowflake written to /Users/sujitjha/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:48:10.806289 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 997.508, "process_in_blocks": "0", "process_kernel_time": 0.130318, "process_mem_max_rss": "124354560", "process_out_blocks": "0", "process_user_time": 0.573041}
+[0m15:48:10.807805 [debug] [MainThread]: Command `dbt init` succeeded at 15:48:10.807708 after 997.51 seconds
+[0m15:48:10.808327 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f8e660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10713ed20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1076bd8b0>]}
+[0m15:48:10.808644 [debug] [MainThread]: Flushing usage events
+[0m15:48:12.342774 [debug] [MainThread]: An error was encountered while trying to flush usage events
