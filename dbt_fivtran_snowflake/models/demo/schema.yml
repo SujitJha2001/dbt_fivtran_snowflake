@@ -1,0 +1,10 @@
+
+version: 2
+
+sources:
+  - name: fivetran
+    description: "Connecting with fivetran"
+    database: FIVETRAN_DATABASE
+    schema: GOOGLE_SHEETS
+    tables:
+      - name: GOOGLE_SHEETS_DEMO_DB
