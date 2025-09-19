@@ -3,7 +3,7 @@ jobs:
     targetName: dev
     schedule:
       type: cron
-      entries: ["*/5 * * * *"]
+      entries: ["0 12 * * *"]
     timeout: 2h30m
     retryOnFailure: true
     steps:
